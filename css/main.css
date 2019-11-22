@@ -6,4 +6,10 @@
   background-image: url(../img/nature.jpg);
 }
 
+h1 {
+  color: red;
+  text-align: center;
+  text-shadow: 3px 2px white;
+}
+
 /*# sourceMappingURL=main.css.map */
