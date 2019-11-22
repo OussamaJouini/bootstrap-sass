@@ -1,12 +1,20 @@
 .navbar{
-    background-color: cornflowerblue;
+    background-color: rgb(163, 164, 224);
 }
 .jumbotron{
-    background-image: url(../img/nature.jpg);
+    padding: 10rem 10rem 10rem 10rem;
+    background: linear-gradient(to bottom, #{fade-out(white, 1.0)} 0%,#{fade-out(white, 1.0)} 100%), url('../img/nature.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 h1 {
     color:red;
-    // font-size: xx-large;
     text-align: center;
-    text-shadow: 3px 2px white;
+    text-shadow: 3px 2px rgb(161, 151, 151);
+    font-size: 70px;
  }
+ .container{
+    height: 40%;
+  }
