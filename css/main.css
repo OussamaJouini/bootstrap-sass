@@ -2,4 +2,8 @@
   background-color: cornflowerblue;
 }
 
+.jumbotron {
+  background-image: url(../img/nature.jpg);
+}
+
 /*# sourceMappingURL=main.css.map */
