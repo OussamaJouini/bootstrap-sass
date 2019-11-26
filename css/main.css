@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Roboto Mono&display=swap");
+:root {
+  --main-primary-first:hsl(249, 82%, 35%);
+  --main-secondary-first:hsl(0, 0%, 100%);
+  --main-primary-second:hsl(240, 93%, 17%);
+  --main-secondary-second:hsl(271, 76%, 53%);
+  --main-special:hsl(0, 5%, 61%);
+}
+
 .navbar {
-  background-color: #2610a3;
+  background-color: var(--main-primary-first);
 }
 
 .navatar {
@@ -12,12 +21,12 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: var(--main-secondary-first);
   font-size: 1.1rem;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: white;
+  color: var(--main-secondary-first);
 }
 
 .jumbotron {
@@ -41,10 +50,10 @@
 }
 
 h1 {
-  color: #030355;
+  color: var(--main-primary-second);
   text-align: center;
   padding-right: 10px;
-  text-shadow: 3px 2px #a19797;
+  text-shadow: 3px 2px var(--main-special);
   font-size: 70px;
 }
 
@@ -54,7 +63,7 @@ h1 {
 
 .fab {
   font-size: 5rem;
-  color: blueviolet;
+  color: var(--main-secondary-second);
 }
 
 /*# sourceMappingURL=main.css.map */
