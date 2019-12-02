@@ -32,9 +32,7 @@
 
 .navbar-light .navbar-nav .active > .nav-link {
   color: var(--main-secondary-first);
-  margin: 2.5rem 0.5rem 2.5rem 2.5rem;
-  border-right: var(--main-special) solid 0.4rem;
-  border-bottom: none;
+  border-bottom: var(--main-special) solid 0.4rem;
 }
 
 .jumbotron {
@@ -65,10 +63,8 @@
 h1 {
   color: var(--main-primary-second);
   text-align: center;
-  padding-right: 10px;
   text-shadow: 3px 2px var(--main-special);
   font-size: 70px;
-  border-bottom: 2px solid var(--main-special);
 }
 
 .container {
@@ -78,6 +74,27 @@ h1 {
 .fab {
   font-size: 5rem;
   color: var(--main-secondary-second);
+}
+
+@media (max-width: 768px) {
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: var(--main-secondary-first);
+    border-left: var(--main-special) solid 0.4rem;
+    border-bottom: none;
+  }
+}
+@media (max-width: 1000px) {
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: var(--main-secondary-first);
+    border-left: var(--main-special) solid 0.4rem;
+    border-bottom: none;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: var(--main-secondary-first);
+    border-bottom: var(--main-special) solid 0.4rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
