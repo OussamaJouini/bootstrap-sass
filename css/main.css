@@ -57,9 +57,6 @@
 
 img.card-img-top {
   vertical-align: middle;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 25%;
   position: center;
 }
 
@@ -69,6 +66,10 @@ img.card-img-top {
   transform: translate(0, 0.5rem) scale(1) rotateY(180deg);
   background-color: var(--main-secondary-first);
   transition: 0.8s ease-in;
+}
+
+.card {
+  color: #000;
 }
 
 .avatar:hover {
@@ -92,24 +93,24 @@ h1 {
   color: var(--main-secondary-second);
 }
 
-@media (max-width: 768px) {
-  .navbar-light .navbar-nav .active > .nav-link {
-    color: var(--main-secondary-first);
-    border-left: var(--main-special) solid 0.4rem;
-    border-bottom: none;
-  }
-}
-@media (max-width: 1000px) {
-  .navbar-light .navbar-nav .active > .nav-link {
-    color: var(--main-secondary-first);
-    border-left: var(--main-special) solid 0.4rem;
-    border-bottom: none;
-  }
-}
 @media (max-width: 1200px) {
   .navbar-light .navbar-nav .active > .nav-link {
     color: var(--main-secondary-first);
     border-bottom: var(--main-special) solid 0.4rem;
+  }
+}
+@media (max-width: 990px) {
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: var(--main-secondary-first);
+    border-right: var(--main-special) solid 0.4rem;
+    border-bottom: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: var(--main-secondary-first);
+    border-right: var(--main-special) solid 0.4rem;
+    border-bottom: none;
   }
 }
 
