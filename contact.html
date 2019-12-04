@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,17 +10,15 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-</head>
-<body>
-  <header>
-      <div class="container">
+  </head>
+  <body>
+    <header>
+        <div class="container">
               <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="../img/avatar.jpg" alt="Avatar" class="navatar"></a>
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- <img src="../img/avatar.jpg" alt="Avatar" class="navatar"> -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -30,15 +28,69 @@
                       <a class="nav-link" href="./profolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span> </a>
                     </li>
                   </ul>
                 </div>
               </nav>
                 <!-- your content goes here -->
-        <div class="jumbotron jumbotron-fluid">
+          <div class="jumbotron jumbotron-fluid">
             <h1 class='name'>Contact for Hiring</h1>
             <img src="../img/avatar.jpg" alt="Avatar" class="avatar">
-        </div>      
-      </div>     
+          </div>      
+        </div>     
     </header>
+      <!-- Contact Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 " id="form_container">
+                <h2>Contact Us</h2> 
+                <p> Please send your message below with more details about the requested job. We will get back to you at the earliest! </p>
+                <form role="form" method="post" id="reused_form">
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                          <label for="name"> Your Name:</label>
+                          <input type="text" class="form-control" id="name" name="name" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                          <label for="email"> Email:</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                          <label for="Cellphone"> Your Cellphone:</label>
+                          <input type="number" class="form-control" id="homephone" name="homephone" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                          <label for="Other phone"> Other phone #:</label>
+                          <input type="number" class="form-control" id="otherphone" name="otherphone" required>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="startime"> Start Time:</label>
+                            <input type="date" class="form-control" id="startime" name="startime" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="endtime"> End Time:</label>
+                            <input type="date" class="form-control" id="endtime" name="endtime" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message"> Details about the job:</label>
+                            <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>    
