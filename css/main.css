@@ -117,7 +117,7 @@ h1 {
   padding: 15px 15px;
   margin-top: 15px;
   background: var(--main-special);
-  background-image: url("/img/dark.jpg");
+  background-image: url("../img/dark.jpg");
   color: var(--main-secondary-first);
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ h1 {
 
 body {
   background-color: var(--main-extra-one);
-  background-image: url("/img/banner.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
