@@ -2,6 +2,7 @@
 :root {
   --main-primary-first:hsl(249, 82%, 35%);
   --main-secondary-first:hsl(0, 0%, 100%);
+  --main-extra-one:rgb(14, 2, 70);
   --main-primary-second:hsl(240, 93%, 17%);
   --main-secondary-second:hsl(271, 76%, 53%);
   --main-special:hsl(0, 5%, 61%);
@@ -9,6 +10,10 @@
 
 .navbar {
   background-color: var(--main-primary-first);
+}
+
+.p.text-muted mb-0 {
+  color: var(--main-primary-first);
 }
 
 .navatar {
@@ -26,7 +31,7 @@
 }
 
 .div.card-body {
-  color: var(--main --main-secondary-first);
+  color: var(--main-secondary-first);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -72,13 +77,13 @@ img.card-img-top {
   transition: 0.8s ease-in;
 }
 
-.card {
-  color: #000;
-}
-
 .avatar:hover {
   transform: translate(0, 0.5rem) scale(1) rotateY(180deg);
   transition: 0.8s ease-in;
+}
+
+h3 {
+  color: var(--main-secondary-second);
 }
 
 h1 {
@@ -100,13 +105,15 @@ h1 {
 #form_container {
   padding: 15px 15px;
   margin-top: 15px;
-  background: var(--main-primary-second);
-  color: var(--main-special);
+  background: var(--main-special);
+  background-image: url("/img/dark.jpg");
+  color: var(--main-secondary-first);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
-  background-color: var(--main-primary-first);
-  background-image: url("images/stduio-2035349_1280.jpg");
+  background-color: var(--main-extra-one);
   background-size: cover;
   background-repeat: no-repeat;
 }
