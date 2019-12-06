@@ -107,13 +107,23 @@ h1 {
   height: 40%;
 }
 
+.div.container {
+  position: center;
+}
+
 .fab {
   font-size: 5rem;
   color: var(--main-secondary-second);
 }
 
+.reused_form {
+  position: center;
+  text-align: center;
+}
+
 #form_container {
   position: center;
+  text-align: center;
   padding: 15px 15px;
   margin-top: 15px;
   background: var(--main-special);
